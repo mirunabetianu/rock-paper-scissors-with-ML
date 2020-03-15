@@ -1,0 +1,11 @@
+const GameTypes = {
+  START_GAME: 'START_GAME',
+  PAUSE_GAME: 'PAUSE_GAME',
+  STOP_GAME: 'STOP_GAME',
+  RESUME_GAME: 'RESUME_GAME',
+  PLAYER_WIN: 'PLAYER_WIN',
+  COMPUTER_WIN: 'COMPUTER_WIN',
+  SET_MOVE: 'SET_MOVE'
+};
+
+export default GameTypes;
