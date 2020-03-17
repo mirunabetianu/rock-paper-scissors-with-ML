@@ -10,4 +10,4 @@ The application is pretty intuitive. The user has to press two buttons in the fo
 ### Implementation details
 
 The application is implemented using React and Redux. The machine learning part is done using tensorflowJS, a ML library for JavaScript.
-The whole prediction part is done in the AdvancedModel component, where each prediction is rendered on the canvas.
+The whole prediction part is done in the AdvancedModel component, where each prediction is rendered and once a valid detection is done, a red border will appear surrounding the hand position.
